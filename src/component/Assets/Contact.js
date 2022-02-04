@@ -1,0 +1,55 @@
+import React from 'react';
+import './Style.css';
+
+
+const Contact =()=>{
+    return(
+        <div id="contact">
+            <div className="container">
+                <div className="row justify-content-center text-center">
+                    <h1> Contact Me</h1>
+                    <p>Reach me on the following platforms</p>
+                </div>
+
+                  <div className="row">
+                      <div className="col-md-3">
+                        <span className="icon">
+                           <i className="fas fa-map-marker-alt"></i>
+                        </span>
+                          <h2>ADDRESS</h2>
+                          <p>Lagos Nigeria</p>
+                      </div>
+
+                      <div className="col-md-3">
+                        <span className="icon">
+                           <i className="fas fa-phone"></i>
+                        </span>
+                          <h2>CONTACT NUMBER</h2>
+                          <p>09034775269</p>
+                      </div>
+
+                      <div className="col-md-3">
+                        <span className="icon">
+                          <i className="fas fa-envelope"></i>
+                        </span>
+                          <h2>EMAIL ADDRESS</h2>
+                          <p>atijosanbabatunde@gmail.com</p>
+                      </div>
+
+                      <div className="col-md-3">
+                        <span className="icon">
+                        <i class="fab fa-linkedin"></i>
+                        </span>
+                          <h2>LINKEDIN</h2>
+                          <p>"https://linkedin.com/in/babatunde-atijosan-b12849230/"</p>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    )
+}
+
+
+
+
+export default Contact 
